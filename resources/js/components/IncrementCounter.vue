@@ -8,8 +8,8 @@ const counter = ref(0)
 
 <template>
     <button
-        type="button"
-        @click="count++"
+        type="button" 
+        @click="counter++"
     >
     Counter is: {{ counter }}
     </button>

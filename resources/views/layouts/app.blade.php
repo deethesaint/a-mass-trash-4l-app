@@ -6,7 +6,8 @@
     @vite('resources/css/app.css')
     <title>Document</title>
 </head>
-<body>
+<body id="app">
     @yield('content')
+    @vite('resources/js/app.js')
 </body>
 </html>
