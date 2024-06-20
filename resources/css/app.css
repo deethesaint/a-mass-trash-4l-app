@@ -1,3 +1,8 @@
 @tailwind base;
-@tailwind component;
+@tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+}
