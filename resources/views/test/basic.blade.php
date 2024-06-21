@@ -1,9 +1,9 @@
 @extends('layouts.app')
 @section('content')
-    <div class="pt-12">
+    <div class="pt-12 mx-2">
         <h1 class="text-center text-black text-5xl font-semibold">Live Anywhere</h1>
         <h2 class="text-center text-gray-500 text-3xl font-light mt-1 mb-10">Keep calm & travel on</h2>
-        <div class="grid grid-cols-3 gap-x-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-x-3 md:gap-x-6 lg:gap-x-8 gap-y-3 max-w-7xl mx-auto">
             <image-box
                 url="https://images.unsplash.com/photo-1563911302283-d2bc129e7570?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 title="Enjoy the great cold"
