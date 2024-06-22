@@ -12,17 +12,13 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
         rel="stylesheet">
     @vite('resources/css/app.css')
-    <title>Document</title>
+    <title>DuongTheDev</title>
 </head>
 
 <body id="app" class="bg-gradient-to-r from-cyan-100 to-lime-100">
     <v-header></v-header>
-    
     <div class="flex flex-row">
-        <div class="basis-0 lg:basis-1/6">
-
-        </div>
-        <div class="basis-full lg:basis-4/6 border-x-2 bg-white min-h-screen">
+        <div class="basis-full mx-auto border-x-2 max-w-7xl bg-white min-h-screen">
             <div class="w-full h-8">
 
             </div>
@@ -30,9 +26,6 @@
             <div class="w-full h-8">
 
             </div>
-        </div>
-        <div class="basis-0 lg:basis-1/6">
-
         </div>
     </div>
     <button class="fixed z-20 bottom-2 end-2 rounded-full backdrop-blur-sm bg-white/40 border-2 h-12 w-12"

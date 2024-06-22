@@ -2,7 +2,7 @@
     <header class="bg-gray-100 dark:border-b-indigo-900 backdrop-blur-sm bg-white/40 border-b-2">
         <nav class="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8">
             <div class="flex lg:flex-1">
-                <a href="/blog" class="">
+                <a href="/" class="">
                     <p
                         class="h-14 w-auto font-bold text-nowrap text-4xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-transparent bg-clip-text">
                         DuongTheDev <br><span class="text-sm">i tell stories</span></p>
@@ -21,7 +21,9 @@
                 <div id="menu-mobile" class="absolute end-0 top-20 order-1 hidden flex bg-gray-100 shadow w-full divide-y">
                     <ul class="w-full text-end items-end justify-end">
                         <li>
-                            <button id="menu-mobile-categories-dropdown-btn" class="mx-3 my-1 font-semibold text-xl hover:text-yellow-400 transition" type="button" data-dropdown-toggle="menu-mobile-categories-dropdown">Danh
+                            <button id="menu-mobile-categories-dropdown-btn"
+                                class="mx-3 my-1 font-semibold text-xl hover:text-yellow-400 transition" type="button"
+                                data-dropdown-toggle="menu-mobile-categories-dropdown">Danh
                                 mục</button>
                             <div id="menu-mobile-categories-dropdown"
                                 class="absolute z-10 hidden bg-gray-200 rounded-lg shadow transition w-full divide-x divide-y">
