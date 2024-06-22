@@ -1,11 +1,11 @@
 <template>
-    <header class="bg-gray-200 dark:border-b-indigo-900">
-        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+    <header class="bg-gray-100 dark:border-b-indigo-900 backdrop-blur-sm bg-white/40 border-b-2">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8">
             <div class="flex lg:flex-1">
                 <a href="/blog" class="">
-                    <h2
-                        class="h-6 w-auto font-bold text-nowrap text-2xl text-indigo-500 hover:text-orange-500 transition duration-75">
-                        DuongTheDev</h2>
+                    <p
+                        class="h-14 w-auto font-bold text-nowrap text-4xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-transparent bg-clip-text">
+                        DuongTheDev <br><span class="text-sm">i tell stories</span></p>
                 </a>
             </div>
             <div class="flex lg:hidden">
@@ -18,7 +18,7 @@
                             d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                     </svg>
                 </button>
-                <div id="menu-mobile" class="absolute end-0 top-20 order-1 hidden flex bg-gray-200 shadow w-full divide-y">
+                <div id="menu-mobile" class="absolute end-0 top-20 order-1 hidden flex bg-gray-100 shadow w-full divide-y">
                     <ul class="w-full text-end items-end justify-end">
                         <li>
                             <button id="menu-mobile-categories-dropdown-btn" class="mx-3 my-1 font-semibold text-xl hover:text-yellow-400 transition" type="button" data-dropdown-toggle="menu-mobile-categories-dropdown">Danh
@@ -74,7 +74,7 @@
                             </svg>
                         </button>
                         <div id="menu-desktop-categories-dropdown"
-                            class="absolute z-10 hidden bg-gray-200 rounded-lg shadow transition w-96 divide-x divide-y">
+                            class="absolute z-10 hidden bg-gray-100 rounded-lg shadow-lg transition w-60 divide-x divide-y">
                             <ul aria-labelledby="menu-desktop-categories-dropdown-btn" class="w-full">
                                 <li class="hover:bg-slate-300 rounded-lg px-3">
                                     <a href="#" class="block text-lg font-semibold">Category 1</a>
