@@ -13,7 +13,9 @@
 </head>
 
 <body id="app">
+    <v-header></v-header>
     @yield('content')
+    <v-footer></v-footer>
     @vite('resources/js/app.js')
 </body>
 

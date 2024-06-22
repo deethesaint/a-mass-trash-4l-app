@@ -13,3 +13,7 @@ Route::get('/test', function() {
 Route::get('/basic-layout', function() {
     return view('test.basic');
 });
+
+Route::get('/blog', function() {
+    return view('test.blog');
+});
