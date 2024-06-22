@@ -1,7 +1,7 @@
 <template>
     <footer class="bg-gray-200 rounded-lg shadow dark:bg-gray-800 py-3">
-        <div class="w-full mx-auto max-w-screen-xl md:flex md:items-center md:justify-between">
-            <span class="text-gray-500 dark:text-gray-400">Since 2024 - Vũ Thanh Dương |
+        <div class="w-full mx-auto max-w-7xl md:flex md:items-center md:justify-between">
+            <span class="text-gray-500 dark:text-gray-400 mx-3">Since 2024 - Vũ Thanh Dương |
                 duongthedev.id.vn</span>
             <ul class="flex flex-wrap items-center my-3">
                 <li class="mx-3">
@@ -37,5 +37,6 @@
                     </a>
                 </li>
             </ul>
-    </div>
-</footer></template>
+        </div>
+    </footer>
+</template>
