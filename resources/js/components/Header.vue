@@ -9,24 +9,22 @@
                 </a>
             </div>
             <div class="flex lg:hidden">
-                <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+                <button type="button"
+                    class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 dark:text-white"
                     data-collapse-toggle="menu-mobile">
                     <span class="sr-only">Open main menu</span>
-                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                        aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                    </svg>
+                    <i class="fa-solid fa-bars w-10"></i>
                 </button>
-                <div id="menu-mobile" class="absolute end-0 top-20 order-1 hidden flex bg-gray-100 shadow w-full divide-y">
-                    <ul class="w-full text-end items-end justify-end">
-                        <li>
+                <div id="menu-mobile"
+                    class="absolute end-0 top-20 order-1 hidden flex bg-gray-100 shadow w-full divide-y dark:bg-indigo-900">
+                    <ul class="w-full text-end items-end justify-end p-2">
+                        <li class="my-2">
                             <button id="menu-mobile-categories-dropdown-btn"
-                                class="mx-3 my-1 font-semibold text-xl hover:text-yellow-400 transition" type="button"
-                                data-dropdown-toggle="menu-mobile-categories-dropdown">Danh
+                                class="mx-3 my-1 font-semibold text-xl hover:text-yellow-400 transition dark:text-white"
+                                type="button" data-dropdown-toggle="menu-mobile-categories-dropdown">Danh
                                 mục</button>
                             <div id="menu-mobile-categories-dropdown"
-                                class="absolute z-10 hidden bg-gray-200 rounded-lg shadow transition w-full divide-x divide-y">
+                                class="absolute hidden bg-gray-200 dark:bg-indigo-900 dark:text-white rounded-lg shadow transition w-full divide-x divide-y">
                                 <ul aria-labelledby="menu-desktop-categories-dropdown-btn" class="w-full">
                                     <li class="hover:bg-slate-300 rounded-lg px-3">
                                         <a href="#" class="block text-xl font-semibold">Category 1</a>
@@ -43,18 +41,19 @@
                                 </ul>
                             </div>
                         </li>
-                        <li>
-                            <a class="mx-3 my-1 font-semibold text-xl hover:text-yellow-400 transition" href="#">'bout
+                        <li class="my-2">
+                            <a class="mx-3 my-1 font-semibold text-xl hover:text-yellow-400 transition dark:text-white" href="#">'bout
                                 me</a>
                         </li>
-                        <li>
-                            <button class="mx-3 my-1 font-semibold text-xl hover:scale-125 transition ">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <circle cx="11" cy="11" r="8"></circle>
-                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                </svg>
+                        <li class="my-2">
+                            <button class="mx-3 my-1 font-semibold text-xl hover:scale-125 transition dark:text-white">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </li>
+                        <li class="my-2">
+                            <button onclick="onChangeThemeClicked()"
+                                class="mx-3 my-1 font-semibold text-xl hover:scale-125 transition dark:text-white">
+                                <i class="fa-solid fa-lightbulb"></i>
                             </button>
                         </li>
                     </ul>
@@ -64,37 +63,37 @@
                 <div class="relative">
                     <div class="flex items-center justify-center">
                         <button id="menu-desktop-categories-dropdown-btn"
-                            class="mx-3 font-semibold text-lg hover:text-yellow-400 transition" type="button"
-                            data-dropdown-toggle="menu-desktop-categories-dropdown">Danh
+                            class="mx-3 font-semibold text-lg hover:text-yellow-400 transition dark:text-white"
+                            type="button" data-dropdown-toggle="menu-desktop-categories-dropdown">Danh
                             mục</button>
-                        <a class="mx-3 font-semibold text-lg hover:text-yellow-400 transition" href="#">'bout me</a>
-                        <button class="mx-3 font-semibold text-lg hover:scale-125 transition my-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="11" cy="11" r="8"></circle>
-                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                            </svg>
+                        <a class="mx-3 font-semibold text-lg hover:text-yellow-400 transition dark:text-white"
+                            href="#">'bout me</a>
+                        <button class="mx-3 font-semibold text-lg hover:scale-125 transition my-1 dark:text-white">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <button onclick="onChangeThemeClicked()"
+                            class="mx-3 font-semibold text-lg hover:scale-125 transition my-1 dark:text-white">
+                            <i class="fa-regular fa-lightbulb"></i>
                         </button>
                         <div id="menu-desktop-categories-dropdown"
-                            class="absolute z-10 hidden bg-gray-100 rounded-lg shadow-lg transition w-60 divide-x divide-y">
+                            class="absolute hidden rounded-lg shadow-lg transition w-60 divide-x divide-y bg-gray-100 dark:bg-indigo-900">
                             <ul aria-labelledby="menu-desktop-categories-dropdown-btn" class="w-full">
                                 <li class="hover:bg-slate-300 rounded-lg px-3">
-                                    <a href="#" class="block text-lg font-semibold">Category 1</a>
+                                    <a href="#" class="block text-lg font-semibold text-dark dark:text-white">Category 1</a>
                                 </li>
                                 <li class="hover:bg-slate-300 rounded-lg px-3">
-                                    <a href="#" class="block text-lg font-semibold">Category 2</a>
+                                    <a href="#" class="block text-lg font-semibold text-dark dark:text-white">Category 2</a>
                                 </li>
                                 <li class="hover:bg-slate-300 rounded-lg px-3">
-                                    <a href="#" class="block text-lg font-semibold">Category 3</a>
+                                    <a href="#" class="block text-lg font-semibold text-dark dark:text-white">Category 3</a>
                                 </li>
                                 <li class="hover:bg-slate-300 rounded-lg px-3">
-                                    <a href="#" class="block text-lg font-semibold">Category 4</a>
+                                    <a href="#" class="block text-lg font-semibold text-dark dark:text-white">Category 4</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </header>
-</template>
+        </div>
+    </nav>
+</header></template>

@@ -13,12 +13,44 @@
         rel="stylesheet">
     @vite('resources/css/app.css')
     <title>DuongTheDev</title>
+    <script>
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia(
+                '(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+
+        function onChangeThemeClicked() {
+            // if set via local storage previously
+            if (localStorage.getItem('color-theme')) {
+                if (localStorage.getItem('color-theme') === 'light') {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                } else {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                }
+
+            } else {
+                if (document.documentElement.classList.contains('dark')) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                }
+            }
+        }
+    </script>
 </head>
 
-<body id="app" class="bg-gradient-to-r from-cyan-100 to-lime-100">
+<body id="app"
+    class="bg-gradient-to-r from-cyan-100 to-lime-100 dark:bg-gradient-to-r dark:from-emerald-950 dark:to-blue-950">
     <v-header></v-header>
     <div class="flex flex-row">
-        <div class="basis-full mx-auto border-x-2 max-w-7xl bg-white min-h-screen">
+        <div
+            class="basis-full mx-auto border-x-2 xl:max-w-6xl 2xl:max-w-7xl min-h-screen bg-white/50 dark:bg-transparent/10 dark:border-x-indigo-900 transition">
             <div class="w-full h-8">
 
             </div>
