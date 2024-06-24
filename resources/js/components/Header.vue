@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-gray-100 dark:border-b-indigo-900 backdrop-blur-sm bg-transparent/5 border-b-2">
+    <header class="bg-gray-100 dark:border-b-indigo-900 backdrop-blur-sm bg-transparent/5 border-b">
         <nav class="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8">
             <div class="flex lg:flex-1">
                 <a href="/" class="">

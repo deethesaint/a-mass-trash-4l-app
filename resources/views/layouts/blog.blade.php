@@ -50,18 +50,25 @@
     <v-header></v-header>
     <div class="flex flex-row">
         <div
-            class="basis-full mx-auto border-x-2 xl:max-w-6xl 2xl:max-w-7xl min-h-screen bg-white/50 dark:bg-transparent/10 dark:border-x-indigo-900 transition">
+            class="basis-full mx-auto xl:border-x xl:max-w-6xl 2xl:max-w-7xl min-h-screen bg-white/50 dark:bg-transparent/10 dark:border-x-indigo-900 transition">
             <div class="w-full h-8">
 
             </div>
-            @yield('content')
+            <div class="grid grid-cols-12 gap-1">
+                <div class="col-span-full xl:col-span-8">
+                    @yield('content')
+                </div>
+                <div class="xl:col-span-4 px-2">
+                    SIDE
+                </div>
+            </div>
             <div class="w-full h-8">
 
             </div>
         </div>
     </div>
-    <button class="fixed z-20 bottom-2 end-2 rounded-full backdrop-blur-sm bg-white/40 border-2 h-12 w-12"
-        type="button" onclick="onClick()">
+    <button class="fixed z-20 bottom-2 end-2 rounded-full backdrop-blur-sm bg-white/40 border h-12 w-12" type="button"
+        onclick="onClick()">
         <i class="fa-solid fa-arrow-up"></i>
     </button>
     <v-footer></v-footer>
