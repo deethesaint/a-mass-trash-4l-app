@@ -16,7 +16,7 @@
                     <i class="fa-solid fa-bars w-10"></i>
                 </button>
                 <div id="menu-mobile"
-                    class="absolute end-0 top-20 order-1 hidden flex bg-gray-100 shadow w-full divide-y dark:bg-indigo-900">
+                    class="absolute end-0 top-20 order-1 hidden bg-gray-100 shadow w-full h-screen divide-y dark:bg-indigo-900">
                     <ul class="w-full text-end items-end justify-end p-2">
                         <li class="my-2">
                             <button id="menu-mobile-categories-dropdown-btn"
@@ -42,10 +42,6 @@
                             </div>
                         </li>
                         <li class="my-2">
-                            <a class="mx-3 my-1 font-semibold text-xl hover:text-yellow-400 transition dark:text-white" href="#">'bout
-                                me</a>
-                        </li>
-                        <li class="my-2">
                             <button class="mx-3 my-1 font-semibold text-xl hover:scale-125 transition dark:text-white">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
@@ -66,8 +62,6 @@
                             class="mx-3 font-semibold text-lg hover:text-yellow-400 transition dark:text-white"
                             type="button" data-dropdown-toggle="menu-desktop-categories-dropdown">Danh
                             mục</button>
-                        <a class="mx-3 font-semibold text-lg hover:text-yellow-400 transition dark:text-white"
-                            href="#">'bout me</a>
                         <button class="mx-3 font-semibold text-lg hover:scale-125 transition my-1 dark:text-white">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
