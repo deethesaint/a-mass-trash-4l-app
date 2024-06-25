@@ -88,6 +88,7 @@
                         </div>
                     </div>
                 </div>
-        </div>
-    </nav>
-</header></template>
+            </div>
+        </nav>
+    </header>
+</template>
