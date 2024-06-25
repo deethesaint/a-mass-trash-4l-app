@@ -62,12 +62,12 @@
                     class="col-span-12 xl:col-span-3 px-3 py-3 border-t xl:border-t-0 xl:border-s dark:border-s-indigo-900 dark:border-t-indigo-900 dark:text-white">
                     <div class="w-full border-b dark:border-b-indigo-900">
                         <p class="mx-3 my-3 font-semibold">'bout me</p>
-                        <div class="ms-3 mb-3">
+                        <div class="mx-3 mb-3">
                             <div class="my-3 justify-center">
                                 <img src="{{ asset('x.jpg') }}" class="h-36 w-36 rounded-full block mx-auto border">
                             </div>
-                            <p class="text-center xl:text-justify">I'm Duong, a third year IT student at HCMC University of Industry and
-                                Trade.</p>
+                            <p class="text-center text-pretty">I'm Duong, a third year IT student at HCMC University of Industry and
+                                Trade. <br>I like writing about coding, studying and my life...</p>
                         </div>
                     </div>
                     <div class="w-full border-b dark:border-b-indigo-900">
@@ -111,6 +111,8 @@
                             </ul>
                             <p class="w-full font-semibold text-center my-3">vtduong0912@gmail.com</p>
                             <p class="w-full font-semibold text-center my-3">+84366035415</p>
+                            <a href="#" class="underline text-blue-700 dark:text-yellow-200"><p class="w-full font-semibold text-center my-3">My CV</p></a>
+                            <a href="#" class="underline text-blue-700 dark:text-yellow-200"><p class="w-full font-semibold text-center my-3">My Portfolio</p></a>
                         </div>
                     </div>
                     <div class="w-full border-b dark:border-b-indigo-900">
@@ -125,13 +127,13 @@
                         </div>
                     </div>
                     <div class="w-full border-b dark:border-b-indigo-900">
-                        <p class="mx-3 my-3 font-semibold">tags</p>
+                        <p class="mx-3 my-3 font-semibold">popular tags</p>
                         <div class="ms-3">
 
                         </div>
                     </div>
                     <div class="w-full">
-                        <p class="mx-3 my-3 font-semibold">topics</p>
+                        <p class="mx-3 my-3 font-semibold">popular topics</p>
                         <div class="ms-3">
 
                         </div>

@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-gray-100 dark:border-b-indigo-900 backdrop-blur-sm bg-transparent/5 border-b">
+    <header class="bg-gray-100 dark:border-b-indigo-900 backdrop-blur-sm bg-white/5 border-b">
         <nav class="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8">
             <div class="flex lg:flex-1">
                 <a href="/" class="">
@@ -24,7 +24,7 @@
                                 type="button" data-dropdown-toggle="menu-mobile-categories-dropdown">Danh
                                 mục</button>
                             <div id="menu-mobile-categories-dropdown"
-                                class="absolute hidden bg-gray-200 dark:bg-indigo-900 dark:text-white rounded-lg shadow transition w-full divide-x divide-y">
+                                class="absolute hidden bg-gray-200 dark:bg-indigo-950 dark:text-white rounded-lg shadow w-full divide-x divide-y">
                                 <ul aria-labelledby="menu-desktop-categories-dropdown-btn" class="w-full">
                                     <li class="hover:bg-slate-300 rounded-lg px-3">
                                         <a href="#" class="block text-xl font-semibold">Category 1</a>
@@ -70,7 +70,7 @@
                             <i class="fa-regular fa-lightbulb"></i>
                         </button>
                         <div id="menu-desktop-categories-dropdown"
-                            class="absolute hidden rounded-lg shadow-lg transition w-60 divide-x divide-y bg-gray-100 dark:bg-indigo-900">
+                            class="absolute hidden rounded-lg shadow-lg w-60 divide-x divide-y bg-gray-100 dark:bg-indigo-900">
                             <ul aria-labelledby="menu-desktop-categories-dropdown-btn" class="w-full">
                                 <li class="hover:bg-slate-300 rounded-lg px-3">
                                     <a href="#" class="block text-lg font-semibold text-dark dark:text-white">Category 1</a>
