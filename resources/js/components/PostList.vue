@@ -1,5 +1,5 @@
 <template>
-    <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-2 px-2">    
+    <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-2 px-2">
         <Post v-for="item in data" :data="item">
         </Post>
     </div>
