@@ -1,5 +1,4 @@
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,7 +65,7 @@
                             <div class="my-3 justify-center">
                                 <img src="{{ asset('x.jpg') }}" class="h-36 w-36 rounded-full block mx-auto border">
                             </div>
-                            <p class="text-center text-pretty">I'm Duong, a third year IT student at HCMC University of Industry and
+                            <p class="text-center text-pretty">I'm Duong, a junior IT student at HCMC University of Industry and
                                 Trade. <br>I like writing about coding, studying and my life...</p>
                         </div>
                     </div>
@@ -116,6 +115,18 @@
                         </div>
                     </div>
                     <div class="w-full border-b dark:border-b-indigo-900">
+                        <p class="mx-3 my-3 font-semibold">popular tags</p>
+                        <div class="ms-3">
+                            
+                        </div>
+                    </div>
+                    <div class="w-full border-b dark:border-b-indigo-900">
+                        <p class="mx-3 my-3 font-semibold">popular topics</p>
+                        <div class="ms-3">
+                            
+                        </div>
+                    </div>
+                    <div class="w-full">
                         <p class="mx-3 my-3 font-semibold">archieves</p>
                         <div class="ms-3">
                             <p class="mx-4 my-3 font-semibold">2024</p>
@@ -124,18 +135,6 @@
                             <p class="mx-4 my-3 font-semibold">2021</p>
                             <p class="mx-4 my-3 font-semibold">2020</p>
                             <p class="mx-4 my-3 font-semibold">2019</p>
-                        </div>
-                    </div>
-                    <div class="w-full border-b dark:border-b-indigo-900">
-                        <p class="mx-3 my-3 font-semibold">popular tags</p>
-                        <div class="ms-3">
-
-                        </div>
-                    </div>
-                    <div class="w-full">
-                        <p class="mx-3 my-3 font-semibold">popular topics</p>
-                        <div class="ms-3">
-
                         </div>
                     </div>
                 </div>
