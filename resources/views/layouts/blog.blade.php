@@ -116,7 +116,7 @@
                         </div>
                     </div>
                     <div class="w-full border-b dark:border-b-indigo-900">
-                        <p class="mx-3 my-3 font-semibold">achieves</p>
+                        <p class="mx-3 my-3 font-semibold">archieves</p>
                         <div class="ms-3">
                             <p class="mx-4 my-3 font-semibold">2024</p>
                             <p class="mx-4 my-3 font-semibold">2023</p>
